@@ -1,0 +1,125 @@
+
+:root {
+
+    /* Font Family */
+    --font-family: 'Inter', sans-serif;
+    /* Font Sizes */
+    --font-size-small: 0.75rem; /* 12px */
+    --font-size-medium : 1.5rem;
+    --font-size-large : 3rem;
+  /* Brand Colors */
+  --primary-color : #03045e; 
+  --secondary-color: #0077b6; 
+  --accent-color: #00b4d8;      
+  
+  /* State Colors */
+  --success-color: #10b981;
+  --warning-color: #facc15;
+  --error-color: #ef4444;
+  
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+
+  /* Backgrounds */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+
+  /* Border & Shadows */
+  --border-color: #e5e7eb;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Border Radius */
+  --border-radius: 12px;
+  --transition: all 0.3s ease;
+}
+/* CSS RESET */
+*{
+    padding: 0  ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+
+/* Global Styles */
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    -webkit-text-size-adjust: 100%;
+}
+
+.whatUp-container{
+    text-align: center;
+    background-color: #049b39;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: #e0e0e0;
+}
+
+footer{
+    padding:  20px;
+    background-color: #0a111f;
+    color: #d6d7d9;
+    text-align: center;
+}
+
+.footer-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+.opening-hours h3, p{
+    padding: 1rem;
+}
+.opening-hours p{
+    font-size:    85%;
+}
+
+.quick-links h3{
+    padding: 1rem;
+
+}
+
+.quick-links .footer-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quick-links  .footer-list a{
+    text-decoration: none;
+    padding: 0.5rem;
+    font-size: 85%;
+}
+
+.footer-container p, i{
+    font-size: 85%;
+}
+.contact h3{
+    padding: 1rem;
+}
+
+.contact .contact-div{
+    display: flex;
+    align-items: center;
+}
+.copy{
+    font-size: 90%;
+}
